@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.panguangyi.drawabledemo0601.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bitmap_drawable"
+        android:background="@drawable/shape_drawable" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/layer_list_drawable"/>
+    <ImageView
+        android:id="@+id/iv_levellist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/levellist_drawable" />
+    <Button
+        android:id="@+id/btn_change_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change image level"/>
+    <ImageView
+        android:id="@+id/iv_clip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clip_drawable" />
+</LinearLayout>
